@@ -29,6 +29,26 @@ This project was created with the objective of solve a challenge proposed by [Se
 
 ---
 
+## Data
+
+### priceav.csv (Contém dados de ocupação e preço de anúncios)
+* airbnb_listing_id: Identificador de um anúncio.
+* price_string: Preço ofertado.
+* occupied: Booleano de ocupação. 0 significa livre e 1 ocupado.
+* date: Data a ser alugada.
+* booked_on: Data quando “date” foi alugado. Null caso ainda esteja available.
+
+### details.csv (Contém características de cada anúncio)
+* airbnb_listing_id: dentificador de um anúncio
+* suburb: Bairro do listing
+* star_rating: Nota 1-5 do anúncio
+* is_superhost: Booleano que indica se é superhost ou não.
+* number_of_bedrooms: Quantidade de quartos do anúncio.
+* number_of_reviews : Quantidade de reviews do anúncio.
+* ad_name: Título do anúncio.
+* number_of_bathrooms: Número de banheiros do anúncio.
+---
+
 ## Technologies
 
 * Python
