@@ -35,3 +35,13 @@ This project was created with the objective of solve a challenge proposed by [Se
 * Jupyter
 * Numpy
 * Pandas
+
+---
+
+## License
+
+This project is under the license [MIT](./LICENSE) .
+
+---
+
+<p align="center">Made with ❤️ by Rômulo Carneiro<p/>
