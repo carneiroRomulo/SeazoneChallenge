@@ -26,3 +26,12 @@ This project was created with the objective of solve a challenge proposed by [Se
 * Is there any correlation between the characteristics of an ad and its billing? That are? Explain.
 * What is the average advance of reservations? Is this number higher or lower for weekends?
 * Support the analysis with graphs.
+
+---
+
+## Technologies
+
+* Python
+* Jupyter
+* Numpy
+* Pandas
