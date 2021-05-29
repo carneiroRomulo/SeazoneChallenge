@@ -60,7 +60,7 @@ This project was created with the objective of solve a challenge proposed by [Se
 
 ## License
 
-This project is under the license [MIT](./LICENSE) .
+This project is under the [MIT](./LICENSE) license.
 
 ---
 
