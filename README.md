@@ -55,6 +55,7 @@ This project was created with the objective of solve a challenge proposed by [Se
 * Jupyter
 * Numpy
 * Pandas
+* Matplot
 
 ---
 
