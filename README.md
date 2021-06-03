@@ -56,6 +56,7 @@ This project was created with the objective of solve a challenge proposed by [Se
 * Numpy
 * Pandas
 * Matplot
+* Sklearn
 
 ---
 
