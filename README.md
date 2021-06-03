@@ -49,7 +49,7 @@ Este projeto foi criado com o proposito de solucionar um desafio proposto pela [
 * number_of_bathrooms: Quantidade de banheiros do anúncio.
 ---
 
-## Technologies
+## Tecnologias
 
 * Python
 * Jupyter
