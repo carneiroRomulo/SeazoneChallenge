@@ -73,18 +73,6 @@ raw_details_df.head()
 
 ---
 
-## Tecnologias
-
-* Python
-* Jupyter
-* Numpy
-* Pandas
-* Matplot
-* Seaborn
-* Sklearn
-
----
-
 ## Objetivos
 ### 1. Data Cleaning
 
@@ -101,6 +89,9 @@ df3_details.sort_values(['airbnb_listing_id'], inplace=True)
     3               Jurerê                  498
     0         Canasvieiras                 1125
     2             Ingleses                 2281
+    
+`Listings per Location - Graph`    
+![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/listings_per_location.png)
     
 ### 3. Ordene os bairros em ordem crescente de faturamento médio dos listings
 
@@ -137,6 +128,9 @@ df2_merged.sort_values(['billing'], inplace=True)
     0         Canasvieiras   294.30
     2             Ingleses   350.27
     3               Jurerê   414.28
+    
+`Billing per Location - Graph`    
+![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/billing_per_location.png)
 
 ### 4. Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique
 Para se comparar todas as features, primeiro deve-se transforar a coluna `suburb` com a função OneHotEncoder do sklearn, isso porque a feature está como variável categórica, não sendo possível que a máquina consiga a identificar propriamente e depois transformar a saída em dataframe de forma que possa ser realizado o merge com o restante das features
@@ -167,7 +161,8 @@ plt.title('Correlação entre variáveis do dataset')
 plt.show()
 ```
 
-(GRAFICO DE HEATMAP VAI AQUI)
+![alt text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/correlation_between_data_heatmap.png)
+
 
 ### 5. Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?
 
@@ -194,7 +189,7 @@ Ordenando os valores em ordem crescente já é visível que há uma descrepânci
 
 `Gráficos Comparativos`
 
-(GRAFICO BOXPLOT **ERRADO/CERTO** VAI AQUI)
+![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/advance_booking_boxplot_comparison.png)
 
 Logo podemos observar que a média da antecêdencia das reservas foi: 8.19 dias
 ```python
@@ -217,7 +212,7 @@ df6_price = df6_price.sort_values(['days'])
     
 Visualizando de uma forma mais clara com gráfico
 
-(GRAFICO VAI AQUI)
+![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/average_advance_booking_per_day.png)
 
 **CONCLUSÃO:** Desconsiderando os outliers, houve uma antecedência média de 8.19 dias nas reservas e esse número foi maior no final de semana
 
@@ -244,9 +239,21 @@ months = ['Jan','Feb','Mar','Nov','Dec']
 ```
 
 Visualizando no gráfico:
-(GRAFICO VAI AQUI)
+https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/frequency_rental.png
 
 **CONCLUSÃO:** Como pode ser visualizado nos gráficos a cima, os alugueis dos imoveis anunciados estão focados nos finais de semana e no primeiro trimestre do ano, correspondente ao verão
+
+---
+
+## Tecnologias
+
+* Python
+* Jupyter
+* Numpy
+* Pandas
+* Matplot
+* Seaborn
+* Sklearn
 
 ---
 
