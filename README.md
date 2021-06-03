@@ -95,7 +95,7 @@ df3_details.sort_values(['airbnb_listing_id'], inplace=True)
     
 ### 3. Ordene os bairros em ordem crescente de faturamento médio dos listings
 
-Primeiro foi feita a seleção daqueles listings que apenas continham o booleano de `occupied` verdadeiro. Logo em seguida, os datasets contendo as caracteristicas dos listings com o que contém os preços e datas nas quais eles foram reservados foram combinados
+Primeiro foi feita a seleção daqueles listings que apenas continham o booleano de `occupied` verdadeiro. Logo em seguida, o dataset que contem as caracteristicas dos listings foi combinado com o que contém os preços e datas nas quais eles foram reservados
 
 ```python
 df3_price = df2_price.get(df2_price['occupied']==1)
