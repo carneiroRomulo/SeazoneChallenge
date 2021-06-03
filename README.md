@@ -21,15 +21,14 @@ Este projeto foi criado com o proposito de solucionar um desafio proposto pela [
 
 ## Sumário
 * [Dados](#dados)
-* [Tecnologias](#tecnologias)
 * [Objetivos](#objetivos)
   * [1. Data Cleaning](#1-Data-Cleaning)
   * [2. Ordene os bairros em ordem crescente de número de listings](#2-Ordene-os-bairros-em-ordem-crescente-de-número-de-listings)
   * [3. Ordene os bairros em ordem crescente de faturamento médio dos listings](#3-Ordene-os-bairros-em-ordem-crescente-de-faturamento-médio-dos-listings)
   * [4. Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique](#4-Existem-correlações-entre-as-características-de-um-anúncio-e-seu-faturamento-Quais-Explique)
   * [5. Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?](#5-Qual-a-antecedência-média-das-reservas-Esse-número-é-maior-ou-menor-para-finais-de-semana)
-  
 * [Objetivos Extras](#objetivos-extras)
+* [Tecnologias](#tecnologias)
 
 ---
 ## Dados
@@ -91,7 +90,8 @@ df3_details.sort_values(['airbnb_listing_id'], inplace=True)
     0         Canasvieiras                 1125
     2             Ingleses                 2281
     
-`Listings per Location - Graph`    
+`listings_per_location`    
+
 ![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/listings_per_location.png)
     
 ### 3. Ordene os bairros em ordem crescente de faturamento médio dos listings
@@ -130,7 +130,8 @@ df2_merged.sort_values(['billing'], inplace=True)
     2             Ingleses   350.27
     3               Jurerê   414.28
     
-`Billing per Location - Graph`    
+`billing_per_location`
+
 ![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/billing_per_location.png)
 
 ### 4. Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique
@@ -161,6 +162,8 @@ sns.heatmap(df_analysis.corr(),
 plt.title('Correlação entre variáveis do dataset')
 plt.show()
 ```
+`correlation_between_data_heatmap`
+
 ![alt text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/correlation_between_data_heatmap.png)
 
 **CONCLUSÃO:** Através do gráfico de heatmap é possível observar que há sim uma correlação entre algumas das features e o faturamento. Pode-se observar que: number_of_bedrooms', 'number_of_'bathrooms' tem uma forte correlação entre si e com o faturamento, e a feature 'star_rating', junto dos bairros: Ingleses e Lagoa da Conceição apesar de possuirem uma correlação mais fraca com o faturamento, ela também é considerável.
@@ -189,7 +192,7 @@ df4_price['advance_booking'].sort_values()
     
 Ordenando os valores em ordem crescente já é visível que há uma descrepância grande entre os últimos dados, denunciando outliers. Para removê-los foi escolhido como paramêtro valores menores que 36, através da análise em um gráfico boxplot até que não houvesse mais outliers plotados
 
-`Gráficos Comparativos`
+`advance_booking_boxplot_comparison`
 
 ![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/advance_booking_boxplot_comparison.png)
 
@@ -212,7 +215,7 @@ df6_price = df6_price.sort_values(['days'])
     5     5             8.35
     6     6             8.58
     
-Visualizando de uma forma mais clara com gráfico
+`average_advance_booking_per_day`
 
 ![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/average_advance_booking_per_day.png)
 
@@ -240,8 +243,9 @@ days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 months = ['Jan','Feb','Mar','Nov','Dec']
 ```
 
-Visualizando no gráfico:
-https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/frequency_rental.png
+`frequency_rental`
+
+![alt_text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/frequency_rental.png)
 
 **CONCLUSÃO:** Como pode ser visualizado nos gráficos a cima, os alugueis dos imoveis anunciados estão focados nos finais de semana e no primeiro trimestre do ano, correspondente ao verão
 
