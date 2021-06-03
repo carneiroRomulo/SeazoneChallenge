@@ -13,40 +13,40 @@
 
 ---
 
-## Description
+## Descrição
 
-This project was created with the objective of solve a challenge proposed by [Seazone](https://www.seazone.com.br/) as part of a selection process for an internship program in Data Science.
-
----
-
-## Goals
-
-* Sort neighborhoods in ascending order of number of listings.
-* Sort the neighborhoods in ascending order of average listing earnings.
-* Is there any correlation between the characteristics of an ad and its billing? That are? Explain.
-* What is the average advance of reservations? Is this number higher or lower for weekends?
-* Support the analysis with graphs.
+Este projeto foi criado com o proposito de solucionar um desafio proposto pela [Seazone](https://www.seazone.com.br/) como parte do processo seletivo para o programa de estágio em Ciência de Dados.
 
 ---
 
-## Data
+## Objetivos
+
+* Ordene os bairros em ordem crescente de número de listings.
+* Ordene os bairros em ordem crescente de faturamento médio dos listings.
+* Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique.
+* Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?
+* Onde possível, embasar a análise com gráficos.
+
+---
+
+## Dados
 
 ### priceav.csv (Contains occupancy data and ad price)
-* airbnb_listing_id: Ad identifier.
-* price_string: Price offered.
-* occupied: Occupation Boolean. 0 means free and 1 means rented.
-* date: Date to be rented.
-* booked_on: Date when “date” was rented. Null if still available.
+* airbnb_listing_id: Identificador de um anúncio.
+* price_string: : Preço ofertado.
+* occupied: Booleano de ocupação. 0 significa livre e 1 ocupado.
+* date: Data a ser alugada.
+* booked_on: Data quando “date” foi alugado. Null caso ainda esteja disponível.
 
 ### details.csv (Contains characteristics of each ad)
-* airbnb_listing_id: Ad identifier.
-* suburb: Listing neighborhood.
-* star_rating: Note 1-5 of the ad.
-* is_superhost: Boolean indicating whether it is a superhost or not.
-* number_of_bedrooms: Number of rooms in the ad.
-* number_of_reviews : Number of ad reviews.
-* ad_name: Ad title.
-* number_of_bathrooms: Number of bathrooms in the ad.
+* airbnb_listing_id: Identificador de um anúncio.
+* suburb: Bairro do listing.
+* star_rating: Nota 1-5 do anúncio.
+* is_superhost: Booleano que indica se é superhost ou não.
+* number_of_bedrooms: Quantidade de quartos do anúncio.
+* number_of_reviews : Quantidade de reviews do anúncio.
+* ad_name: Título do anúncio.
+* number_of_bathrooms: Quantidade de banheiros do anúncio.
 ---
 
 ## Technologies
@@ -56,6 +56,7 @@ This project was created with the objective of solve a challenge proposed by [Se
 * Numpy
 * Pandas
 * Matplot
+* Seaborn
 * Sklearn
 
 ---
