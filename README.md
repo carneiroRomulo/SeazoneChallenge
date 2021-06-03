@@ -23,7 +23,7 @@ Este projeto foi criado com o proposito de solucionar um desafio proposto pela [
 * [Dados](#dados)
 * [Tecnologias](#tecnologias)
 * [Objetivos](#objetivos)
-* * [1. Data Cleaning](#1-Data-Cleaning)
+  * [1. Data Cleaning](#1-Data-Cleaning)
   * [2. Ordene os bairros em ordem crescente de número de listings](#2-Ordene-os-bairros-em-ordem-crescente-de-número-de-listings)
   * [3. Ordene os bairros em ordem crescente de faturamento médio dos listings](#3-Ordene-os-bairros-em-ordem-crescente-de-faturamento-médio-dos-listings)
   * [4. Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique](#4-Existem-correlações-entre-as-características-de-um-anúncio-e-seu-faturamento-Quais-Explique)
