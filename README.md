@@ -76,7 +76,7 @@ raw_details_df.head()
 ## Objetivos
 ### 1. Data Cleaning
 
-A principio foi realizado uma análise inicial nos datasets para visualizar toda sua estrutura e a tipagem das features. Foram removidas aquelas features desnecessárias para análise que não diziam nada sobre o problema, bem como, o conteúdo daquelas features que possuiam quantidade substancial de missing values e substituindo - já que possui um grande número de missing values - os valores da feature `star_rating` por sua mediana, além de formatar a data na feature `booked_on`, excluindo o horário, já que era insignificante para a análise
+A principio foi realizado uma análise inicial nos datasets para visualizar toda sua estrutura e a tipagem das features. Foram removidas aquelas features desnecessárias para análise que não diziam nada sobre o problema, bem como, o conteúdo daquelas features que possuiam quantidade substancial de missing values e foram substituidos os valores da feature `star_rating` - já que possui um grande número de missing values - por sua mediana, além de formatar a data na feature `booked_on`, excluindo o horário, já que era insignificante para a análise
 
 ### 2. Ordene os bairros em ordem crescente de número de listings
 ```python
