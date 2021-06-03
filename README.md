@@ -23,11 +23,11 @@ Este projeto foi criado com o proposito de solucionar um desafio proposto pela [
 * [Dados](#dados)
 * [Tecnologias](#tecnologias)
 * [Objetivos](#objetivos)
-* * [1. Data Cleaning](#1.-Data-Cleaning)
-  * [2. Ordene os bairros em ordem crescente de número de listings](#2.-Ordene-os-bairros-em-ordem-crescente-de-número-de-listings)
-  * [3. Ordene os bairros em ordem crescente de faturamento médio dos listings](#3.-Ordene-os-bairros-em-ordem-crescente-de-faturamento-médio-dos-listings)
-  * [4. Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique](#4.-Existem-correlações-entre-as-características-de-um-anúncio-e-seu-faturamento?-Quais?-Explique)
-  * [5. Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?](#5.-Qual-a-antecedência-média-das-reservas?-Esse-número-é maior-ou-menor-para-finais-de-semana?)
+* * [1. Data Cleaning](#1-Data-Cleaning)
+  * [2. Ordene os bairros em ordem crescente de número de listings](#2-Ordene-os-bairros-em-ordem-crescente-de-número-de-listings)
+  * [3. Ordene os bairros em ordem crescente de faturamento médio dos listings](#3-Ordene-os-bairros-em-ordem-crescente-de-faturamento-médio-dos-listings)
+  * [4. Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique](#4-Existem-correlações-entre-as-características-de-um-anúncio-e-seu-faturamento-Quais-Explique)
+  * [5. Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?](#5-Qual-a-antecedência-média-das-reservas?-Esse-número-é maior-ou-menor-para-finais-de-semana)
 * [Objetivos Extras](#objetivos-extras)
 
 ---
