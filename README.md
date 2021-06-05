@@ -166,7 +166,7 @@ plt.show()
 
 ![alt text](https://github.com/carneiroRomulo/SeazoneChallenge/blob/main/graphs/correlation_between_data_heatmap.png)
 
-**CONCLUSÃO:** Através do gráfico de heatmap é perceptível que há sim uma correlação entre algumas das features e o faturamento. Pode-se observar que: number_of_bedrooms', 'number_of_'bathrooms' tem uma forte correlação entre si e com o faturamento, e a feature 'star_rating', junto dos bairros: Ingleses e Lagoa da Conceição apesar de possuirem uma correlação mais fraca com o faturamento, ela também é considerável.
+**CONCLUSÃO:** Através do gráfico de heatmap é perceptível que há sim uma correlação entre algumas das features e o faturamento. Pode-se observar que: `number_of_bedrooms`, `number_of_bathrooms` tem uma forte correlação entre si e com o faturamento, e a feature `star_rating`, junto dos bairros: Ingleses e Lagoa da Conceição apesar de possuirem uma correlação mais fraca com o faturamento, ela também é considerável.
 Pode-se absorver também dessa análise que ao alugar através de um anúncio no airbnb, as pessoas costumam procurar por um número de quartos e banheiros equivalente, o que pode estar relacionado com um maior aluguel de suites e geralmente localizados no bairro Ingleses já que este possui forte correlação com esses cômodos.
 
 ### 5. Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?
